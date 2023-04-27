@@ -1,0 +1,419 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: -webkit-center;
+
+  }
+  body.subpage{
+    background: #f0f4f6;
+  }
+  
+  section{
+    width: 1180px;
+  }
+  section.top-menu{
+    width: 100%;
+  }
+  nav {
+    color: #333;
+    background-color: #fff;
+    display: flex;
+    align-items: baseline;
+  }
+  .logo {
+    width: 30%;
+    text-align: start;
+    overflow: hidden;
+  }
+  .logo img{
+    margin-top: -40px;
+    margin-bottom: -40px;
+  }
+  .menu {
+    width: 70%;
+    padding: 8px 5px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: end;
+  }
+  
+  nav li {
+    margin-right: 40px;
+  }
+  
+  nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: ease-in-out .25s;
+    font-family: 'Gotham';
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  nav a:hover {
+    color: #2391ff;
+    border-bottom: 4px solid #2391ff;
+  }
+
+  
+  header {
+    background-image: url("SWS home page background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 60px;
+    margin: 0;
+    font-family: 'Gotham';
+    font-weight: 600;
+    margin-top: -200px;
+
+  }
+  section#page-title{
+    min-height: 200px;
+    background-color: #2391ff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1{
+    font-size: 60px;
+    font-family: 'Gotham';
+    font-weight: 600;
+  }
+  h1.services-page{
+    color: #fff;
+  }
+  
+  header p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  header button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 50%;
+    transition: ease-out .25s;
+    font-family: 'Gotham';
+    padding: 20px 5px;
+    }
+    .buttons-container{
+      display: flex;
+      width: 40%;
+      align-self: center;
+    }
+    header button.contact-button{
+      border-width: 4px 0px 4px 4px;
+      border-color: #fff;
+      background-color: #fff;
+      color: #2391ff;
+      border-style: solid;
+      border-radius: 50px 0px 0px 50px;
+    }
+    header button.services-button{
+      border-width: 4px 4px 4px 0px;
+      border-color: #fff;
+      border-style: solid;
+      border-radius: 0px 50px 50px 0px;
+    }
+    header button.services-button:hover{
+      background-color: #fff;
+      color: #2391ff;
+    }
+    header button.contact-button:hover{
+      background-color: transparent;
+      color: #fff;
+    }
+    .services{
+      z-index: 99;
+      margin-top: -250px;
+      background-color: #fff;
+      border-bottom: 6px solid #13286f;
+      min-height: 400px;
+      display: flex;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    section .service-col, section .social-media{
+      width: 33.33%;
+      padding: 20px 40px;
+      align-self: center;
+
+    }
+    #socials{
+      display: flex;
+    }
+    #socials .facebook iframe{
+      height: 300px !important;
+      overflow: scroll !important;
+      overflow-x: hidden !important;
+      border-radius: 25px;
+      border: 1px solid !important;
+      width: 100%;
+    }
+    section .service-col h2{
+      color: #2391ff;
+      font-size: 26px;
+    }
+    #spotify-logo{
+      width: 30%;
+    }
+    #ratings{
+      width: 30%;
+    }
+    #play-button{
+      width: 30%;
+    }
+    button:hover{
+      cursor: pointer;
+    }
+    #icon-container{
+      display: flex;
+    }
+    #icon-container .icons{
+      width: 33.33%;
+    }
+    #socials .social-media h2{
+      font-size: 40px;
+      font-family: 'Gotham';
+      font-weight: 400;
+      padding: 10px;
+    }
+    main {
+    margin: 50px 0;
+    }
+    section.heading-spacer{
+      width: 100%;
+      background: #f4f4f4;
+      min-height: 250px;
+      margin-top: -150px;
+      z-index: -1;
+      position: relative;
+    }
+    .about {
+    margin: 0 auto 50px;
+    text-align: center;
+    }
+    
+    .about h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #2391ff;
+    }
+    
+    .about p, p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    }
+    
+    
+    .devs-container h2, h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    }
+    
+    .devs-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    }
+    
+    .devs-container li {
+      padding: 20px;
+      width: 33%;
+    }
+    
+    .devs-container img {
+      border-radius: 5px;
+      margin-bottom: 10px;
+      width: 100%;
+      object-fit: cover;
+      height: 300px;
+    }
+    
+    .devs-container h3 {
+    font-size: 24px;
+    margin: 0;
+    }
+    
+    .devs-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin: 0;
+    color: #2391ff;
+    }
+    
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    footer p {
+    font-size: 18px;
+    margin: 0;
+    }
+    
+    @media (max-width: 768px) {
+    header h1 {
+    font-size: 48px;
+    }
+    
+    header p {
+    font-size: 18px;
+    }
+    
+    .about h2 {
+    font-size: 24px;
+    }
+    
+    .about p {
+    font-size: 16px;
+    }
+    
+    .developers h2 {
+    font-size: 24px;
+    }
+    
+    .developers li {
+    max-width: 100%;
+    }
+    }
+    #contact-form{
+      display: flex;
+      align-items: center;
+    }
+    #contact-form #contact-info{
+      width: 40%;
+      text-align-last: center;
+    }
+    #contact-form .contact-col{
+      width: 60%;
+    }
+    #contact-form form{
+      display: table;
+    }
+    #contact-form form input{
+      box-shadow: (0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;      
+      padding: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    #contact-form form #fname, #contact-form form #lname{
+      width: 48.5%;
+    }
+    #contact-form form #fname{
+      margin-right: 10px;
+    }
+    #contact-form form #lname{
+      margin-left: 10px;
+    }
+    #contact-form form #email, #contact-form form #message{
+      width: 100%;
+    }
+    #contact-form form #message{
+      min-height: 200px;
+
+    }
+    #contact-form form #submit{
+      width: 100%;
+      padding: 10px 20px;
+      background-color: #2391ff;
+      color: #fff;
+      border-radius: 20px;
+    }
+    #contact-form{
+      min-height: 600px;
+    }
+    body.subpage main section{
+      background: #fff;
+      padding: 30px;
+      text-align: left;
+      margin: 40px 0px;
+    }
+    body.subpage main section h2{
+      color: #2391ff;
+    }
+    h2{
+      text-transform: uppercase;
+    }
+    
+    /* relevant styles */
+    .img__wrap {
+      position: relative;
+    }
+    
+    .img__description {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: hsla(210, 100%, 57%, 0.726);
+      color: #fff !important;
+      visibility: hidden;
+      opacity: 0;
+      height: 300px;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-y: scroll;
+      /* transition effect. not necessary */
+      text-align: center;
+      transition: opacity .2s, visibility .2s;
+    }
+
+    
+    .img__wrap:hover .img__description {
+      visibility: visible;
+      opacity: 1;
+    }
+    
+  /*       ScrollBar 2        */
+  
+    .img__description::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    .img__description::-webkit-scrollbar-track {
+      background-color: transparent;
+      border: 1.5px solid #2391ff;
+      border-radius: 8px;
+    }
+
+    .img__description::-webkit-scrollbar-thumb {
+      background-color: #f1f1f1bd;
+      border: 2px solid #2391ff;
+      border-radius: 8px;
+    }
+
